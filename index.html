@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto APOD - NASA</title>
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <header class="titulo">
+
+        <h1>APOD - Astronomy Picture of the Day</h1>
+
+        <div class="escolhaData">
+            <input type=date id="datas" class="inputData">
+            <button type="submit" id="enviar" class="botaoEnviar"> Enviar <i
+                    class="fa fa-search"></i></button>
+        </div>
+
+    </header>
+
+    <main>
+
+        <p id="texto">A APOD é uma API da NASA que fornece uma foto ou vídeo diariamente, para que as pessoas consigam
+            descobrir um pouco mais sobre o espaço.</p>
+
+        <p id="data"></p>
+
+        <div id="video"><iframe id="vid"></iframe></div>
+
+        <div id="imagem"><img src="./Imagens/imagem1.jpg" id="img"></div>
+
+        <div>
+            <p id="autoria"></p>
+            <p id="legenda"></p>
+        </div>        
+
+    </main>
+
+    <footer>
+        <p> &copy; Projeto Resilia T14 - Vítor Del' Duca</p>
+    </footer>
+
+    <script src="./JS/index.js"></script>
+
+</body>
+
+</html>
