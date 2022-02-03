@@ -21,7 +21,7 @@ function enviaApi (obj) {
     let tipo = JSON.stringify (obj.media_type)
 
     $('#data').html(` Data ${obj.date}`)
-    $('#autoria').html(` Créditos da Imagem & Copyright: ${obj.copyright}`)
+    $('#autoria').html(` Créditos da Imagem/Video: ${obj.copyright}`)
     $('#legenda').html(obj.explanation)
 
     if (tipo === '"image"') {

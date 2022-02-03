@@ -73,24 +73,23 @@ h1 {
 }
 
 #img {
-    height: 60%;
-    width: 60%;
+    height: 50%;
+    width: 50%;
 }
 
 #autoria {
     font-family: 'Courier New', Courier, monospace;
     color: #01389e;
     font-weight: bold;
-    padding: 10px;
 }
 
 #legenda {
     display: flex;
-    align-items: center;
+    text-align: center;
     font-family: 'Courier New', Courier, monospace;
     color: #01389e;
     font-weight: bolder;
-    padding: 40px;
+    padding: 20px;
 }
 
 footer {
